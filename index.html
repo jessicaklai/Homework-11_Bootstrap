@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!-- START OF CONFIGURATIONS-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Homework 11 - Bootstrap</title>
+
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="LayoutIt-Stylesheets/index_css-js/bootstrap.min.css" rel="stylesheet">
+    <link href="LayoutIt-Stylesheets/index_css-js/style.css" rel="stylesheet">
+
+	<link href="styles.css" rel="stylesheet">
+			
+    <script src="LayoutIt-Stylesheets/index_css-js/jquery.min.js"></script>
+    <script src="LayoutIt-Stylesheets/index_css-js/bootstrap.min.js"></script>
+    <script src="LayoutIt-Stylesheets/index_css-js/scripts.js"></script>
+  </head>
+  <!-- END OF CONFIGURATIONS-->
+  
+  <!-- START OF WEB COMPONENTS-->  
+  <body>
+	
+	<!-- START OF NAVBAR-->
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Homework 11: Dashboard</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="viz_1.html">Vs Temperature</a>
+							<a class="dropdown-item" href="viz_2.html">Vs Humidity</a>
+							<a class="dropdown-item" href="viz_3.html">Vs Cloudiness</a>
+							<a class="dropdown-item" href="viz_4.html">Vs Wind Speed</a> 
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="comparisons.html">Visualization Comparison</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="data.html">Data Table</a>
+					</li>
+				</ul> 
+			</nav>
+		</div>
+	</div>
+</div>
+	<!-- END OF NAVBAR-->
+	
+	<!-- START OF PROJECT OVERVIEW-->
+    <div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<article class="Description">
+					<h1 class="Header">Summary: City Latitude vs. X</h1>
+					<img src="Assets/Fig1.png" class="Responsive-Image" style="width:400px;height:250px;border:2;"/>
+					<p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+					<p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+				</article>
+			</div>
+			<div class="col-md-6">
+				<section id="LP_Viz_Section">
+				<h2 class="LP_Viz_Header">Visualizations</h2>
+					<div id="Four_Visualizations">
+                    <a href="viz_1.html"><img src="Assets/Fig1.png" alt="City Latitude vs Max Temperature" style="width:170px;height:170px;border:1;" class="Responsive-Image""></a>
+                    <a href="viz_2.html"><img src="Assets/Fig2.png" alt="City Latitude vs Humidity" style="width:170px;height:170px;border:1;" class="Responsive-Image"></a>
+                    <a href="viz_3.html"><img src="Assets/Fig3.png" alt="City Latitude vs Cloudiness" style="width:170px;height:170px;border:1;" class="Responsive-Image"></a>
+                    <a href="viz_4.html"><img src="Assets/Fig4.png" alt="City Latitude vs Wind Speed" style="width:170px;height:170px;border:1;" class="Responsive-Image"></a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+  </body>
+  	<!-- END OF PROJECT OVERVIEW-->
+  <!-- END OF WEB COMPONENTS-->  
+
+  </html>

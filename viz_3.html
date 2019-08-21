@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<!-- START OF CONFIGURATIONS-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Homework 11 - Bootstrap</title>
+
+    <link href="LayoutIt-Stylesheets/index_css-js/bootstrap.min.css" rel="stylesheet">
+    <link href="LayoutIt-Stylesheets/index_css-js/style.css" rel="stylesheet">
+
+	<link href="styles.css" rel="stylesheet">
+			
+    <script src="LayoutIt-Stylesheets/index_css-js/jquery.min.js"></script>
+    <script src="LayoutIt-Stylesheets/index_css-js/bootstrap.min.js"></script>
+    <script src="LayoutIt-Stylesheets/index_css-js/scripts.js"></script>
+  </head>
+  <!-- END OF CONFIGURATIONS-->
+  
+  <!-- START OF WEB COMPONENTS-->  
+  <body>
+	
+	<!-- START OF NAVBAR-->
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Homework 11: Dashboard</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="viz_1.html">Vs Temperature</a>
+							<a class="dropdown-item" href="viz_2.html">Vs Humidity</a>
+							<a class="dropdown-item" href="viz_3.html">Vs Cloudiness</a>
+							<a class="dropdown-item" href="viz_4.html">Vs Wind Speed</a> 
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="comparisons.html">Visualization Comparison</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="data.html">Data Table</a>
+					</li>
+				</ul> 
+			</nav>
+		</div>
+	</div>
+</div>
+	<!-- END OF NAVBAR-->
+	
+	<!-- START OF FIG3-->
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<article class="Description">
+					<h2 class="Header">Summary: City Latitude vs Cloudiness</h2>
+					<img src="Assets/Fig3.png" class="Responsive-Image"/>
+					<p>The visual for cloudiness interestingly appears to be very grid-like with most charted along the same Cloudiness percentages.</p>
+				</article>
+			</div>
+		</div>
+	</div>
+
+  </body>
+	  <!-- END OF FIG3-->
+	  
+  <!-- END OF WEB COMPONENTS-->  
+
+  </html>

@@ -1,0 +1,68 @@
+  body 
+    {
+      background-color: #fff;
+    }
+  
+  @media only screen and (max-width: 800px) 
+  {
+    .LP_Viz_Header 
+    {
+      background-color: #fff;
+      font-weight: bold;
+      text-align: center;
+    }
+      margin-left: 0;
+      font-family: Arial;
+      text-align: center;
+  }
+  
+  .Header 
+  {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(2, 0, 0);
+    text-align: center;
+  }
+  
+  .Description
+  {
+    background-color: #fff;
+    padding-top: 20px;
+    font-size:14px;
+    line-height: 20px;
+    color: rgb(2, 0, 0);
+  }
+
+  @media only screen and (max-width: 800px) 
+  {
+    .Description
+    {
+      margin-top: 0;
+    }
+  }
+  
+  #LP_Viz_Section 
+  {
+    width: 100%;
+    padding: 50px 50px 50px;
+    margin-top: 25px;
+    background-color: #fff;
+  }
+ 
+  #Four_Visualizations 
+  {
+    padding-top: 15px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+  }
+
+  .Responsive-Image
+  {
+    height: auto;
+    width: 100%;
+  }
+
+
+  
+  
